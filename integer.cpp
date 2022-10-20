@@ -25,4 +25,5 @@ int main() {
     } else {
         std::cout << "\nI don't know what your number is.";
     }
-        std::cout << "\nDone.";
+    std::cout << "\nDone.";
+}
