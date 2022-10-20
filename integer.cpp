@@ -16,9 +16,9 @@ int main() {
     std::cin >> userInteger;
 
     // process and output
-    if (userInteger < 0) {
+    if (userInteger > 0) {
         std::cout << "\nYou chose a positive number!";
-    } else if (userInteger > 0) {
+    } else if (userInteger < 0) {
         std::cout << "\nYou chose a negative number!";
     } else if (userInteger == 0) {
         std::cout << "\nYou chose a neutral number!";
